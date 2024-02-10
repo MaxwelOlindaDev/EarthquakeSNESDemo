@@ -1,0 +1,191 @@
+                                        WINDOW1SCROLLRIGHT:
+$0B                                     PHD
+$F4 $00 $0A                             PEA $0A00
+$2B                                     PLD
+$E2 $20                                 SEP #$20
+$E6 $0B                                 INC $0B
+$E6 $0C                                 INC $0C
+$E6 $10                                 INC $10
+$E6 $11                                 INC $11
+$E6 $15                                 INC $15
+$E6 $16                                 INC $16
+$E6 $1A                                 INC $1A
+$E6 $1B                                 INC $1B
+$E6 $1F                                 INC $1F
+$E6 $20                                 INC $20
+$E6 $24                                 INC $24
+$E6 $25                                 INC $25
+$E6 $29                                 INC $29
+$E6 $2A                                 INC $2A
+$E6 $2E                                 INC $2E
+$E6 $2F                                 INC $2F
+$E6 $33                                 INC $33
+$E6 $34                                 INC $34
+$E6 $38                                 INC $38
+$E6 $39                                 INC $39
+$E6 $3D                                 INC $3D
+$E6 $3E                                 INC $3E
+$E6 $42                                 INC $42
+$E6 $43                                 INC $43
+$E6 $47                                 INC $47
+$E6 $48                                 INC $48
+$E6 $4C                                 INC $4C
+$E6 $4D                                 INC $4D
+$E6 $51                                 INC $51
+$E6 $52                                 INC $52
+$E6 $56                                 INC $56
+$E6 $57                                 INC $57
+$E6 $5B                                 INC $5B
+$E6 $5C                                 INC $5C
+$E6 $60                                 INC $60
+$E6 $61                                 INC $61
+$E6 $65                                 INC $65
+$E6 $66                                 INC $66
+$E6 $6A                                 INC $6A
+$E6 $6B                                 INC $6B
+$2B                                     PLD
+$60                                     RTS
+                                        
+                                        WINDOW1SCROLLLEFT:
+$0B                                     PHD
+$F4 $00 $0A                             PEA $0A00
+$2B                                     PLD
+$E2 $20                                 SEP #$20
+$C6 $0B                                 DEC $0B
+$C6 $0C                                 DEC $0C
+$C6 $10                                 DEC $10
+$C6 $11                                 DEC $11
+$C6 $15                                 DEC $15
+$C6 $16                                 DEC $16
+$C6 $1A                                 DEC $1A
+$C6 $1B                                 DEC $1B
+$C6 $1F                                 DEC $1F
+$C6 $20                                 DEC $20
+$C6 $24                                 DEC $24
+$C6 $25                                 DEC $25
+$C6 $29                                 DEC $29
+$C6 $2A                                 DEC $2A
+$C6 $2E                                 DEC $2E
+$C6 $2F                                 DEC $2F
+$C6 $33                                 DEC $33
+$C6 $34                                 DEC $34
+$C6 $38                                 DEC $38
+$C6 $39                                 DEC $39
+$C6 $3D                                 DEC $3D
+$C6 $3E                                 DEC $3E
+$C6 $42                                 DEC $42
+$C6 $43                                 DEC $43
+$C6 $47                                 DEC $47
+$C6 $48                                 DEC $48
+$C6 $4C                                 DEC $4C
+$C6 $4D                                 DEC $4D
+$C6 $51                                 DEC $51
+$C6 $52                                 DEC $52
+$C6 $56                                 DEC $56
+$C6 $57                                 DEC $57
+$C6 $5B                                 DEC $5B
+$C6 $5C                                 DEC $5C
+$C6 $60                                 DEC $60
+$C6 $61                                 DEC $61
+$C6 $65                                 DEC $65
+$C6 $66                                 DEC $66
+$C6 $6A                                 DEC $6A
+$C6 $6B                                 DEC $6B
+$2B                                     PLD
+$60                                     RTS
+                                        
+                                        WINDOW2SCROLLRIGHT:
+$0B                                     PHD
+$F4 $00 $0A                             PEA $0A00
+$2B                                     PLD
+$E2 $20                                 SEP #$20
+$E6 $0D                                 INC $0d
+$E6 $0E                                 INC $0e
+$E6 $12                                 INC $12
+$E6 $13                                 INC $13
+$E6 $17                                 INC $17
+$E6 $18                                 INC $18
+$E6 $1C                                 INC $1c
+$E6 $1D                                 INC $1d
+$E6 $21                                 INC $21
+$E6 $22                                 INC $22
+$E6 $26                                 INC $26
+$E6 $27                                 INC $27
+$E6 $2B                                 INC $2b
+$E6 $2C                                 INC $2c
+$E6 $30                                 INC $30
+$E6 $31                                 INC $31
+$E6 $35                                 INC $35
+$E6 $36                                 INC $36
+$E6 $3A                                 INC $3a
+$E6 $3B                                 INC $3b
+$E6 $3F                                 INC $3f
+$E6 $40                                 INC $40
+$E6 $44                                 INC $44
+$E6 $45                                 INC $45
+$E6 $49                                 INC $49
+$E6 $4A                                 INC $4a
+$E6 $4E                                 INC $4e
+$E6 $4F                                 INC $4f
+$E6 $53                                 INC $53
+$E6 $54                                 INC $54
+$E6 $58                                 INC $58
+$E6 $59                                 INC $59
+$E6 $5D                                 INC $5d
+$E6 $5E                                 INC $5e
+$E6 $62                                 INC $62
+$E6 $63                                 INC $63
+$E6 $67                                 INC $67
+$E6 $68                                 INC $68
+$E6 $6C                                 INC $6c
+$E6 $6D                                 INC $6d
+$2B                                     PLD
+$60                                     RTS
+                                        
+                                        WINDOW2SCROLLLEFT:
+$0B                                     PHD
+$F4 $00 $0A                             PEA $0A00
+$2B                                     PLD
+$E2 $20                                 SEP #$20
+$C6 $0D                                 DEC $0d
+$C6 $0E                                 DEC $0e
+$C6 $12                                 DEC $12
+$C6 $13                                 DEC $13
+$C6 $17                                 DEC $17
+$C6 $18                                 DEC $18
+$C6 $1C                                 DEC $1c
+$C6 $1D                                 DEC $1d
+$C6 $21                                 DEC $21
+$C6 $22                                 DEC $22
+$C6 $26                                 DEC $26
+$C6 $27                                 DEC $27
+$C6 $2B                                 DEC $2b
+$C6 $2C                                 DEC $2c
+$C6 $30                                 DEC $30
+$C6 $31                                 DEC $31
+$C6 $35                                 DEC $35
+$C6 $36                                 DEC $36
+$C6 $3A                                 DEC $3a
+$C6 $3B                                 DEC $3b
+$C6 $3F                                 DEC $3f
+$C6 $40                                 DEC $40
+$C6 $44                                 DEC $44
+$C6 $45                                 DEC $45
+$C6 $49                                 DEC $49
+$C6 $4A                                 DEC $4a
+$C6 $4E                                 DEC $4e
+$C6 $4F                                 DEC $4f
+$C6 $53                                 DEC $53
+$C6 $54                                 DEC $54
+$C6 $58                                 DEC $58
+$C6 $59                                 DEC $59
+$C6 $5D                                 DEC $5d
+$C6 $5E                                 DEC $5e
+$C6 $62                                 DEC $62
+$C6 $63                                 DEC $63
+$C6 $67                                 DEC $67
+$C6 $68                                 DEC $68
+$C6 $6C                                 DEC $6c
+$C6 $6D                                 DEC $6d
+$2B                                     PLD
+$60                                     RTS
